@@ -25,6 +25,6 @@
 - Готовность к промышленному использованию
 
 ▶ Запуск
-scrapy crawl alcoteka -O result.json
+scrapy runspider  alcoteka.py -O alcoteka.json -s FEED_EXPORT_ENCODING=utf-8
 
 Результатом выполнения является файл result.json со структурированными данными товаров по заданным категориям.
